@@ -68,15 +68,16 @@ namespace Minecraft3D
                     {
                         if (Blocks[j].Name == "Вода")
                         {
-                            if ((Blocks[i].Height* Blocks[i].Height + Blocks[i].Width * Blocks[i].Width)> (Blocks[j].Height * Blocks[j].Height + Blocks[j].Width * Blocks[j].Width))
-                            {
-                                dataGridViewMain[5, i].Value = "X";
-                            }
+                            
                             if (Blocks[i].Height > Blocks[j].Height)
                             {
                                 dataGridViewMain[5, i].Value = "X";
                             }
-                            if (Blocks[i].Width > Blocks[j].Width)
+                            else if (Blocks[i].Width > Blocks[j].Width)
+                            {
+                                dataGridViewMain[5, i].Value = "X";
+                            }
+                            else if ((Blocks[i].Height * Blocks[i].Height + Blocks[i].Width * Blocks[i].Width) > (Blocks[j].Height * Blocks[j].Height + Blocks[j].Width * Blocks[j].Width))
                             {
                                 dataGridViewMain[5, i].Value = "X";
                             }
