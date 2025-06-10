@@ -41,24 +41,29 @@
             // 
             // textBoxLength
             // 
-            this.textBoxLength.Location = new System.Drawing.Point(47, 163);
+            this.textBoxLength.Font = new System.Drawing.Font("Impact", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxLength.Location = new System.Drawing.Point(46, 166);
+            this.textBoxLength.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBoxLength.Name = "textBoxLength";
-            this.textBoxLength.Size = new System.Drawing.Size(23, 20);
+            this.textBoxLength.Size = new System.Drawing.Size(55, 28);
             this.textBoxLength.TabIndex = 1;
             // 
             // textBoxWidth
             // 
-            this.textBoxWidth.Location = new System.Drawing.Point(158, 163);
+            this.textBoxWidth.Font = new System.Drawing.Font("Impact", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxWidth.Location = new System.Drawing.Point(214, 166);
+            this.textBoxWidth.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBoxWidth.Name = "textBoxWidth";
-            this.textBoxWidth.Size = new System.Drawing.Size(23, 20);
+            this.textBoxWidth.Size = new System.Drawing.Size(56, 28);
             this.textBoxWidth.TabIndex = 2;
             // 
             // radioButtonEarth
             // 
             this.radioButtonEarth.AutoSize = true;
-            this.radioButtonEarth.Location = new System.Drawing.Point(3, 10);
+            this.radioButtonEarth.Location = new System.Drawing.Point(4, 12);
+            this.radioButtonEarth.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.radioButtonEarth.Name = "radioButtonEarth";
-            this.radioButtonEarth.Size = new System.Drawing.Size(58, 17);
+            this.radioButtonEarth.Size = new System.Drawing.Size(80, 25);
             this.radioButtonEarth.TabIndex = 3;
             this.radioButtonEarth.TabStop = true;
             this.radioButtonEarth.Text = "Земля";
@@ -68,17 +73,20 @@
             // 
             this.panel1.Controls.Add(this.radioButtonWater);
             this.panel1.Controls.Add(this.radioButtonEarth);
-            this.panel1.Location = new System.Drawing.Point(44, 47);
+            this.panel1.Font = new System.Drawing.Font("Impact", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.panel1.Location = new System.Drawing.Point(60, 33);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(137, 66);
+            this.panel1.Size = new System.Drawing.Size(183, 81);
             this.panel1.TabIndex = 4;
             // 
             // radioButtonWater
             // 
             this.radioButtonWater.AutoSize = true;
-            this.radioButtonWater.Location = new System.Drawing.Point(3, 33);
+            this.radioButtonWater.Location = new System.Drawing.Point(4, 41);
+            this.radioButtonWater.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.radioButtonWater.Name = "radioButtonWater";
-            this.radioButtonWater.Size = new System.Drawing.Size(50, 17);
+            this.radioButtonWater.Size = new System.Drawing.Size(69, 25);
             this.radioButtonWater.TabIndex = 4;
             this.radioButtonWater.TabStop = true;
             this.radioButtonWater.Text = "Вода";
@@ -86,9 +94,11 @@
             // 
             // buttonSave
             // 
-            this.buttonSave.Location = new System.Drawing.Point(77, 210);
+            this.buttonSave.Font = new System.Drawing.Font("Impact", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonSave.Location = new System.Drawing.Point(68, 245);
+            this.buttonSave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonSave.Name = "buttonSave";
-            this.buttonSave.Size = new System.Drawing.Size(75, 23);
+            this.buttonSave.Size = new System.Drawing.Size(175, 34);
             this.buttonSave.TabIndex = 5;
             this.buttonSave.Text = "Сохранить";
             this.buttonSave.UseVisualStyleBackColor = true;
@@ -97,32 +107,37 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(44, 138);
+            this.label1.Font = new System.Drawing.Font("Impact", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(42, 192);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(40, 13);
+            this.label1.Size = new System.Drawing.Size(59, 21);
             this.label1.TabIndex = 6;
             this.label1.Text = "Длина";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(141, 138);
+            this.label2.Font = new System.Drawing.Font("Impact", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(199, 192);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 13);
+            this.label2.Size = new System.Drawing.Size(71, 21);
             this.label2.TabIndex = 7;
             this.label2.Text = "Ширина";
             // 
             // FormAddObject
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(239, 253);
+            this.ClientSize = new System.Drawing.Size(481, 311);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.buttonSave);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.textBoxWidth);
             this.Controls.Add(this.textBoxLength);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormAddObject";
             this.Text = "Добавить объект";
             this.Load += new System.EventHandler(this.FormAddObject_Load);

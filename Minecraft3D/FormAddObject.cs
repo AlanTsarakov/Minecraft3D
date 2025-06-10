@@ -13,9 +13,11 @@ namespace Minecraft3D
     public partial class FormAddObject : Form
     {
         public Block Block = new Block("earth", 0, 0);
-        public FormAddObject()
+        FormMain form;
+        public FormAddObject(FormMain form)
         {
             InitializeComponent();
+            this.form = form;
         }
 
         private void FormAddObject_Load(object sender, EventArgs e)
@@ -34,6 +36,10 @@ namespace Minecraft3D
                 Block.Name = "Вода";
             }
             this.Visible = false;
+            
+            form.Blocks.Add(Block);
+            Close();
+
         }
     }
 }
